@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="wheatherApp">
+        <div class="searchBox">
+            <input 
+                id="input" 
+                type="text"
+                placeholder="Search City Name"
+                >
+            <div class="img">
+                <img src="images/search.png">
+            </div>
+        </div>
+        <span class="loader"></span>
+        <div class="contentBox">
+            <div class="content">
+                <div class="name">
+                    <h1 class="cityName"></h1>
+                </div>
+                <div class="image">
+                    <img class="wheather_img" src="images/cloudy.png">
+                </div>
+                <div class="textValue">
+                    <h1 class="temp"></h1>
+                    <h3 class="climate"></h3>
+                </div>
+            </div>
+            <div class="windHumidity">
+                <div class="wind">
+                    <div class="windImage">
+                        <img src="images/wind.png">
+                    </div>
+                    <div class="values">
+                        <h3 id="windVal"></h3>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="humitidy">
+                    <div class="humitidyImage">
+                        <img src="images/humidity.png">
+                    </div>
+                    <div class="values">
+                        <h3 id="humidityVal"></h3>
+                        <P>Humidity</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pageNotFound">
+            <img src="images/error.jpg">
+            <p id="reson">jpogjmpvtidj0v</p>
+        </div>
+    </div>
+</body>
+</html>
